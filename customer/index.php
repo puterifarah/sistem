@@ -22,7 +22,10 @@ $stmt->fetch();
     <title>Customer</title>
 </head>
 <body>
+    <h3>
     <?php echo "Selamat Datang $cust_name"; ?>
-    
+    </h3>
+
+    <p><a href="../logout.php">LOGOUT</a></p>
 </body>
 </html>
